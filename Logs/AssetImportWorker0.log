@@ -1,0 +1,691 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.21f1 (f2d5d3c59f8c) revision 15914451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1766; Version 2009; 64bit' Language: 'de' Physical Memory: 7843 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/adama/Documents/GitHub/VR Game SWP/SWP-Jahresprojekt-VRGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51931
+Successfully changed project path to: C:/Users/adama/Documents/GitHub/VR Game SWP/SWP-Jahresprojekt-VRGame
+C:/Users/adama/Documents/GitHub/VR Game SWP/SWP-Jahresprojekt-VRGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 210.25 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 3.54 ms.
+Initialize engine version: 2021.1.21f1 (f2d5d3c59f8c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adama/Documents/GitHub/VR Game SWP/SWP-Jahresprojekt-VRGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 3 Graphics (ID=0x15dd)
+    Vendor:   ATI
+    VRAM:     3921 MB
+    Driver:   27.20.15002.8001
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005498 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 199.10 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5113ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (200ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 201.72 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2778ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2342ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (660ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (225ms)
+			SetupLoadedEditorAssemblies (875ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (202ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.84 ms.
+Unloading 2466 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.6 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2904.
+Total: 4.473300 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.086900 ms MarkObjects: 3.959100 ms  DeleteObjects: 0.123600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/BNG Framework/Prefabs/Lever C.prefab
+  artifactKey: Guid(c08ac8c5e1b316241ab8278ad6825309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Lever C.prefab using Guid(c08ac8c5e1b316241ab8278ad6825309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9e06ac5d0c4d339cd4081e2ddc684b') in 0.776849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/BNG Framework/Prefabs/SnapPoint.prefab
+  artifactKey: Guid(62f4987b7e086ff43ab61a31ee443048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/SnapPoint.prefab using Guid(62f4987b7e086ff43ab61a31ee443048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674141a3e65f3c2b53ece2af5959d642') in 0.081922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/BNG Framework/Prefabs/VehicleExample_Mini.prefab
+  artifactKey: Guid(b0550f8ced5444544a791898a0382fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/VehicleExample_Mini.prefab using Guid(b0550f8ced5444544a791898a0382fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029c936f3571052d49c7b1c39eb2f31b') in 0.967292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/BNG Framework/Prefabs/Lever B.prefab
+  artifactKey: Guid(a2419f9845db03f479057114b6bbbe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Lever B.prefab using Guid(a2419f9845db03f479057114b6bbbe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4729b6f09f53fd9755fb1f9f733cd') in 0.053289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/BNG Framework/Prefabs/CustomHandLeft.prefab
+  artifactKey: Guid(ffcc94b2104a37e47a3b781d4605a371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/CustomHandLeft.prefab using Guid(ffcc94b2104a37e47a3b781d4605a371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73df61ad76edb3dd88dd1c62c01884d2') in 0.174452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/BNG Framework/Prefabs/ExplodingBarrel.prefab
+  artifactKey: Guid(25b840c61060dd542a94a103f667c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/ExplodingBarrel.prefab using Guid(25b840c61060dd542a94a103f667c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b613cb2013c6ce5602d12aa23bb9158b') in 0.059143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Bullet.prefab
+  artifactKey: Guid(1bd53d944b6ecd54e96e0d83f8256628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Bullet.prefab using Guid(1bd53d944b6ecd54e96e0d83f8256628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d59a34ba1b8cc7fe18db5b37ae10f74') in 0.044662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolClip.prefab
+  artifactKey: Guid(ad3253d11e5c53745af22dfd18017d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolClip.prefab using Guid(ad3253d11e5c53745af22dfd18017d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80fd7683d40417a47264e3f6a51f682') in 0.052466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/BNG Framework/Prefabs/CrateWithItem.prefab
+  artifactKey: Guid(c3261c423b4b0fe43a9287b69d34e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/CrateWithItem.prefab using Guid(c3261c423b4b0fe43a9287b69d34e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29387c1dfd542f6e3ee1095caaeb3479') in 0.149586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolAutomatic Variant.prefab
+  artifactKey: Guid(d29b02de1b5f87e40a985e8b62fd86b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolAutomatic Variant.prefab using Guid(d29b02de1b5f87e40a985e8b62fd86b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7003aaff54a35cce46c03c82e6564812') in 0.137597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/RifleClipDrum.prefab
+  artifactKey: Guid(490c1345cad1db946a7de74c7daeb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/RifleClipDrum.prefab using Guid(490c1345cad1db946a7de74c7daeb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b8567008df404e578b580b77f494ee') in 0.057318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/BNG Framework/Prefabs/BulletHole.prefab
+  artifactKey: Guid(fa39ce2ce96bec94b82f2c8124ce3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/BulletHole.prefab using Guid(fa39ce2ce96bec94b82f2c8124ce3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbad615d96f9db7f0df91ceec18d68ec') in 0.374760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/BNG Framework/Prefabs/IKDummy.prefab
+  artifactKey: Guid(a5141b94f9b0fe84195bb6694e6932d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/IKDummy.prefab using Guid(a5141b94f9b0fe84195bb6694e6932d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2ef82301031130f5aade65068570d3') in 0.498531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/BNG Framework/Prefabs/SteeringWheel.prefab
+  artifactKey: Guid(1656a291f0766b94f941a4d72ce14ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/SteeringWheel.prefab using Guid(1656a291f0766b94f941a4d72ce14ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28179d5d635fb9bb4460c7c953c1d72a') in 0.046815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/BNG Framework/Prefabs/Mirror.prefab
+  artifactKey: Guid(64b01e3d5c639b9409f3e0a69f80b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Mirror.prefab using Guid(64b01e3d5c639b9409f3e0a69f80b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6a0c7c638f16819ee495dca4a232ac') in 0.075078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/BNG Framework/Prefabs/Desk2.prefab
+  artifactKey: Guid(409c29609963914488169a846ec3ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Desk2.prefab using Guid(409c29609963914488169a846ec3ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd3f1c5363d61361419328fab85e155') in 0.052258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/BNG Framework/Prefabs/OnHitFXSpray.prefab
+  artifactKey: Guid(368f3d53c5f0ec3468166a76f629b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/OnHitFXSpray.prefab using Guid(368f3d53c5f0ec3468166a76f629b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5d4d59e94e7df00951c4e0666d2345') in 0.033765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/BNG Framework/Prefabs/CustomHandRight.prefab
+  artifactKey: Guid(71c930d535f9d1b4bb5666d38aed617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/CustomHandRight.prefab using Guid(71c930d535f9d1b4bb5666d38aed617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c28a2f7da30a5e0be671c21d8c535e') in 0.051535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/BNG Framework/Prefabs/ScaleBetween.prefab
+  artifactKey: Guid(b8e4cecd09499bf468ee84a18c4f6fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/ScaleBetween.prefab using Guid(b8e4cecd09499bf468ee84a18c4f6fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e62bfbf33877a6a05df93ede3df614') in 0.035498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BNG Framework/Prefabs/BowNew.prefab
+  artifactKey: Guid(980a21778f791c443bf58c4c2a9651cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/BowNew.prefab using Guid(980a21778f791c443bf58c4c2a9651cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb44b9ab8cba4779761eaeef30e264d') in 0.409320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/BNG Framework/Prefabs/VR Keyboard.prefab
+  artifactKey: Guid(8a70b6ef2260a1848b78f80fbf4e786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/VR Keyboard.prefab using Guid(8a70b6ef2260a1848b78f80fbf4e786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab70f9d4c42325b9ee72a2e84c73f9e') in 0.062809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/BNG Framework/Prefabs/Button.prefab
+  artifactKey: Guid(0ddfc520c9a0c444ca01b9e5f24afb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Button.prefab using Guid(0ddfc520c9a0c444ca01b9e5f24afb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e985cedca44197748d565ac3b25390f') in 0.049349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/BNG Framework/Prefabs/GrappleGun.prefab
+  artifactKey: Guid(268fd734eb849c343992481e1da9388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/GrappleGun.prefab using Guid(268fd734eb849c343992481e1da9388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3eec0cc10d2115b4bf977d089d15398') in 0.047534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/BulletCase.prefab
+  artifactKey: Guid(f8313a7c0e07bba40ac0f3634a590caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/BulletCase.prefab using Guid(f8313a7c0e07bba40ac0f3634a590caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd3f11e9af8fbc9f752c5b26f6c7662') in 0.038045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/BNG Framework/Prefabs/Bat 2H.prefab
+  artifactKey: Guid(4d1f6770a1232804db34e20b067f2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Bat 2H.prefab using Guid(4d1f6770a1232804db34e20b067f2acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af0582ea86a5d4837a1cd6e0fe48d3c') in 0.305452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/BNG Framework/Prefabs/PingPongBall.prefab
+  artifactKey: Guid(399e81172965af247aded9307a504630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/PingPongBall.prefab using Guid(399e81172965af247aded9307a504630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967a372c432f426f151380c026e7044b') in 0.038281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Pistol.prefab
+  artifactKey: Guid(b2defb85b986ab243a8c5252fe34a93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Pistol.prefab using Guid(b2defb85b986ab243a8c5252fe34a93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32a57b176fdd041e6b17107a4a76f89') in 0.057145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/BNG Framework/Prefabs/TextBlock.prefab
+  artifactKey: Guid(d1196da97cc726d48bb5c44c053d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/TextBlock.prefab using Guid(d1196da97cc726d48bb5c44c053d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d9d28c23ed6ee0c736c9a3ba67f373') in 0.245385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolSilenced.prefab
+  artifactKey: Guid(9f71a5ca74b14ff4a89316cd9faf9208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolSilenced.prefab using Guid(9f71a5ca74b14ff4a89316cd9faf9208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64831d06dcb7335467e802ada41690e3') in 0.073506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab
+  artifactKey: Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolNEW.prefab using Guid(6e987ed47215b3a46af930a293e59f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf245eeb4c8cca6870755c21fb1e5479') in 0.095800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Staff 2H.prefab
+  artifactKey: Guid(4dd82e4ae4f6ade4da9e04a300848ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Staff 2H.prefab using Guid(4dd82e4ae4f6ade4da9e04a300848ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2e3906797612ded3cba3d58dff85cc') in 0.082145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/BNG Framework/Prefabs/OnHitFX2.prefab
+  artifactKey: Guid(1c0840efb2a915f4bb2836c6789b4772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/OnHitFX2.prefab using Guid(1c0840efb2a915f4bb2836c6789b4772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5227856af0f12d6534d26fda68510afc') in 0.034798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/BNG Framework
+  artifactKey: Guid(00277cb8751de2f40ad835e076d7adcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework using Guid(00277cb8751de2f40ad835e076d7adcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2d89f1ce562c896a8ff5e760903338') in 0.021300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000946 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Katana 2H.prefab
+  artifactKey: Guid(4b060d28a0db4a64f8f081d3d059f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Katana 2H.prefab using Guid(4b060d28a0db4a64f8f081d3d059f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266eaa35b2c336acc4638339620fc959') in 0.043525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/RifleShellEmpty.prefab
+  artifactKey: Guid(e6d6d8266008ffe438ce58f774e874fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/RifleShellEmpty.prefab using Guid(e6d6d8266008ffe438ce58f774e874fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58ab1ae18c4f2fd3467fd33296aa9c2') in 0.038634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/BNG Framework/Prefabs/OnHitFX.prefab
+  artifactKey: Guid(66ba75c631bd8354892c80fe7071992b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/OnHitFX.prefab using Guid(66ba75c631bd8354892c80fe7071992b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178a444a50a255d1622ce50c403f5628') in 0.156580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/BNG Framework/Prefabs/Knob.prefab
+  artifactKey: Guid(b6d8d2fe17aa0e845b409cde025ad27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Knob.prefab using Guid(b6d8d2fe17aa0e845b409cde025ad27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c8ff324495b7e548cf679fe63e48fe') in 0.060572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Katana.prefab
+  artifactKey: Guid(a7d6b8c7104034c459c257fce0277176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Katana.prefab using Guid(a7d6b8c7104034c459c257fce0277176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c397625cff326a9440a56b9254e1154a') in 0.051468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/BNG Framework/Prefabs/HandJet.prefab
+  artifactKey: Guid(0f9df8d02c9bafe49a092afcdf1f5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/HandJet.prefab using Guid(0f9df8d02c9bafe49a092afcdf1f5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d16753fd8861bfd9ea1f1984c117b61') in 0.045903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/RifleClip.prefab
+  artifactKey: Guid(0116c3965a703db4cb19d8b573a7531b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/RifleClip.prefab using Guid(0116c3965a703db4cb19d8b573a7531b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82f6b6ae7189988fcfe9252aaa0b64b') in 0.054800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/BNG Framework/Prefabs/JoystickVehicleControl.prefab
+  artifactKey: Guid(bab352ace9d991441b7bd020a9ad5bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/JoystickVehicleControl.prefab using Guid(bab352ace9d991441b7bd020a9ad5bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b5e1731756478709f07bc7f8532511') in 0.061040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/BNG Framework/Prefabs/Ladder.prefab
+  artifactKey: Guid(29b5a1465b2e947438e68f69e35a8fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Ladder.prefab using Guid(29b5a1465b2e947438e68f69e35a8fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099ac1e4720ab5a0217be4433ae112bc') in 0.044132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Knife.prefab
+  artifactKey: Guid(858d45f4977607b4b9b2a2000bdf284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Knife.prefab using Guid(858d45f4977607b4b9b2a2000bdf284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0651f76f2c8cc25da1c54ee7ac1c5eac') in 0.042243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/BNG Framework/Prefabs/Hammer.prefab
+  artifactKey: Guid(4f129b5556bf99748859cbb49fa5fdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Hammer.prefab using Guid(4f129b5556bf99748859cbb49fa5fdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7423e71bbd53b6b076b329a5045f6940') in 0.043209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/BNG Framework/Prefabs/ZipLineGrabber.prefab
+  artifactKey: Guid(13049a06e1e88ab42b7949927a970b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/ZipLineGrabber.prefab using Guid(13049a06e1e88ab42b7949927a970b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884bcdaf1a09ccd5477da99dbb574453') in 0.037757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Rifle.prefab
+  artifactKey: Guid(c11d1066dc09d494d8acd9ca504d4de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Rifle.prefab using Guid(c11d1066dc09d494d8acd9ca504d4de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b593ec621af9b80bf494f23db703694') in 0.066217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/BNG Framework/Prefabs/Hand Model Changer.prefab
+  artifactKey: Guid(ee3e6c075258e534da1f6ee02f8b4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Hand Model Changer.prefab using Guid(ee3e6c075258e534da1f6ee02f8b4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfc6c23b0ac55b9e28c6638f3a7fa20') in 0.105064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/RifleWithGrip Variant.prefab
+  artifactKey: Guid(22fc588c43c2f7146ab5990f2c2848cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/RifleWithGrip Variant.prefab using Guid(22fc588c43c2f7146ab5990f2c2848cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363a782a6831d288aac24b6623646bbb') in 0.073991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/BNG Framework/Prefabs/PistolAttachments Variant.prefab
+  artifactKey: Guid(bbdd2759d1d59714f9efcec989caaaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/PistolAttachments Variant.prefab using Guid(bbdd2759d1d59714f9efcec989caaaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aedd1fc06adb192dbf2cf6b18920f7d') in 0.069928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/BNG Framework/Prefabs/TeleportDestination.prefab
+  artifactKey: Guid(745474d57ad4f6641b08c258fdbfcc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/TeleportDestination.prefab using Guid(745474d57ad4f6641b08c258fdbfcc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfc23eb58a72524713b613dea01f1fa') in 0.040323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/BNG Framework/Prefabs/Joystick.prefab
+  artifactKey: Guid(e4324f2703548f24eb2562d7b849cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Joystick.prefab using Guid(e4324f2703548f24eb2562d7b849cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5078b370d5cdd84ef8d5174927842c49') in 0.050081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/BNG Framework/Prefabs/Desk.prefab
+  artifactKey: Guid(a789d0b9ce34ff842880e59ef8261779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Desk.prefab using Guid(a789d0b9ce34ff842880e59ef8261779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a19f501a7cbbb5273c44b3dd85b4ff') in 0.042102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/BNG Framework/Prefabs/Marker.prefab
+  artifactKey: Guid(b9bc860373922584080483018760241f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Marker.prefab using Guid(b9bc860373922584080483018760241f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ff51d13cf7b9f51bcd762da1f2f90f') in 0.048966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolClipLarge.prefab
+  artifactKey: Guid(bc7f35e91cb437a43adc6dcbb18ecee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolClipLarge.prefab using Guid(bc7f35e91cb437a43adc6dcbb18ecee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e89754955f5e553ac01416b82af706') in 0.044482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolClipLargeNEW.prefab
+  artifactKey: Guid(730f28aa494403b4cb40ca4b10aabadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolClipLargeNEW.prefab using Guid(730f28aa494403b4cb40ca4b10aabadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d86152213086ece153ec5b96a1fc75c') in 0.048767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/BNG Framework/Prefabs/Crate.prefab
+  artifactKey: Guid(10c35245ad06ce54889312401eb6fb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Crate.prefab using Guid(10c35245ad06ce54889312401eb6fb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec36ff14fafa72bb28d39fd7f78f2825') in 0.043933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/PistolClipNEW.prefab
+  artifactKey: Guid(d67544e4468dd0748a81cca8dafdb14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/PistolClipNEW.prefab using Guid(d67544e4468dd0748a81cca8dafdb14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2532d3207f4ba51b8e1c84a79e0c115a') in 0.056775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/BNG Framework/Prefabs/Joystick A.prefab
+  artifactKey: Guid(0322070addfcbbe4e97d98d1fb4ecabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Joystick A.prefab using Guid(0322070addfcbbe4e97d98d1fb4ecabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d472290960771e3c67ebeb7eae2851f') in 0.038694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/BNG Framework/Prefabs/Slide.prefab
+  artifactKey: Guid(99f47e11765001245a11dc1219c90ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Slide.prefab using Guid(99f47e11765001245a11dc1219c90ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebffa449eadb48932f7bccf13d8fbbe1') in 0.039271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/BNG Framework/Prefabs/LaserSword.prefab
+  artifactKey: Guid(5b704853ebc7792498ed95ae5410a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/LaserSword.prefab using Guid(5b704853ebc7792498ed95ae5410a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cc599e8722d089d9513405b91e438e') in 0.036159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/RifleShell.prefab
+  artifactKey: Guid(71697d0a89acdde438e207f40798fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/RifleShell.prefab using Guid(71697d0a89acdde438e207f40798fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517c5f7ff676db8ba8ec1cf4845c72f6') in 0.052591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/BNG Framework/Prefabs/Player
+  artifactKey: Guid(db43c09c852cbcd47821ae54b05e8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Player using Guid(db43c09c852cbcd47821ae54b05e8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b35c06b95bfe02a5a2340d38e296ba') in 0.011778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/BNG Framework/Prefabs/Player/XR Rig Advanced.prefab
+  artifactKey: Guid(4ac7df741a9c0a2418ec19477729ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Player/XR Rig Advanced.prefab using Guid(4ac7df741a9c0a2418ec19477729ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee2ebed59d77a3d36e182b89c788cc5') in 0.635398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/BNG Framework/Prefabs/Player/XR Rig Barebones.prefab
+  artifactKey: Guid(dc03a465cabc90746a8ab420688757d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Player/XR Rig Barebones.prefab using Guid(dc03a465cabc90746a8ab420688757d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c31734529093c5b5b8e2f90f5a536a') in 0.040561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/BNG Framework/Prefabs/Player/XR Rig.prefab
+  artifactKey: Guid(2af1d2045149fe743b81bc4d1a6f8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Player/XR Rig.prefab using Guid(2af1d2045149fe743b81bc4d1a6f8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd48463ee4f82f5b5df387e591651bd9') in 0.538421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/BNG Framework/Prefabs/Robot Kyle Ragdoll Projectile.prefab
+  artifactKey: Guid(26d95e36bb69d704ea748458869b9b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Robot Kyle Ragdoll Projectile.prefab using Guid(26d95e36bb69d704ea748458869b9b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40259d65b4bd8d69f36d1f231e4e35c') in 0.050930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/BNG Framework/Prefabs/ButtonRound.prefab
+  artifactKey: Guid(624ef7d780846b342988732cbb919663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/ButtonRound.prefab using Guid(624ef7d780846b342988732cbb919663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65b036e8d0d8f5618d07f724a9959ae') in 0.041614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/BNG Framework/Prefabs/Crowbar.prefab
+  artifactKey: Guid(d1403a4ac31b4464e9582f7faaf31deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Crowbar.prefab using Guid(d1403a4ac31b4464e9582f7faaf31deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7795274081fdb633ca1ed6ca20ea13') in 0.042975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/BNG Framework/Prefabs/Breakable.prefab
+  artifactKey: Guid(496ea98f57b529f4a833f65409a22871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Breakable.prefab using Guid(496ea98f57b529f4a833f65409a22871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701894b4b07510ccb3d1e8a484514241') in 0.039576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/BNG Framework/Prefabs/Projectile.prefab
+  artifactKey: Guid(4af46545725f628459794cfc7c0f7d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Projectile.prefab using Guid(4af46545725f628459794cfc7c0f7d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8f0a771e99106a9fbcd776af1eaae9') in 0.039750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/BNG Framework/Prefabs/Lever A.prefab
+  artifactKey: Guid(2c8749612dd1d9542aecb3bbb4aa6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Lever A.prefab using Guid(2c8749612dd1d9542aecb3bbb4aa6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb3f5afe41d011532b77254055d4bfd') in 0.043900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/BNG Framework/Prefabs/Player/XR Rig Rigidbody.prefab
+  artifactKey: Guid(95fa1fd3c47aafe4ca02325a6550bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Player/XR Rig Rigidbody.prefab using Guid(95fa1fd3c47aafe4ca02325a6550bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63245b66f1567c6139083b29e7c66fe') in 0.175132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons
+  artifactKey: Guid(0d0fb70b16a0b5a44ac890ff728ff48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons using Guid(0d0fb70b16a0b5a44ac890ff728ff48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281e153519cc4f14266e97fe5d5c9d08') in 0.023888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/BNG Framework/Prefabs/UICursor.prefab
+  artifactKey: Guid(cda3e347c37ecf24e89b8cd380c7f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/UICursor.prefab using Guid(cda3e347c37ecf24e89b8cd380c7f9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e936c37ae146678bc82b5f887f89350c') in 0.029135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Shotgun.prefab
+  artifactKey: Guid(338b73bca5e49f146beefdccf9811a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Shotgun.prefab using Guid(338b73bca5e49f146beefdccf9811a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c46fa851ed626522c4ba0f81e97f167') in 0.068034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/BNG Framework/Prefabs/VehicleExample.prefab
+  artifactKey: Guid(4fe64847736fa8042a9d992e31d646b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/VehicleExample.prefab using Guid(4fe64847736fa8042a9d992e31d646b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f732476ed0cadf23b6a0ca9222747d6b') in 0.062992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/BNG Framework/Prefabs/SteeringWheelLeverSetup.prefab
+  artifactKey: Guid(b41ac38c6f5008847a63b626f75befd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/SteeringWheelLeverSetup.prefab using Guid(b41ac38c6f5008847a63b626f75befd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dccc4c3f5738d652bd74d8093f3ae8b') in 0.038458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/BNG Framework/Prefabs/EventSystem.prefab
+  artifactKey: Guid(d438cc23d9b8af241b1612661f3938b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/EventSystem.prefab using Guid(d438cc23d9b8af241b1612661f3938b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc03c33cd2a46472aaa473d87dcd7c3') in 0.029379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/BNG Framework/Prefabs/BlockYellow.prefab
+  artifactKey: Guid(0f50f6c994c01194195f0b739e15686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/BlockYellow.prefab using Guid(0f50f6c994c01194195f0b739e15686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373be2715297c06310f3037485d8b78c') in 0.041526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/BNG Framework/Prefabs/DebugMenu.prefab
+  artifactKey: Guid(79d6eb9496d140a4c953d23ac9677d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/DebugMenu.prefab using Guid(79d6eb9496d140a4c953d23ac9677d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b36eebac30cb80bf2fcf3d4047302d') in 0.027549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/BNG Framework/Prefabs/UICanvas.prefab
+  artifactKey: Guid(1f75a4a1ec4271442a6c51de842cadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/UICanvas.prefab using Guid(1f75a4a1ec4271442a6c51de842cadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f8745140363758b149a9654c6f99ad') in 0.028931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/BNG Framework/Prefabs/Bow.prefab
+  artifactKey: Guid(3b3a577d35f83cd479e4139b02c51002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Bow.prefab using Guid(3b3a577d35f83cd479e4139b02c51002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e77b28d46c64a1ca5bd382c3f7546b8') in 0.192803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/BNG Framework/Prefabs/Backpack.prefab
+  artifactKey: Guid(c99145ded050f544f93c5c074bff5ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Backpack.prefab using Guid(c99145ded050f544f93c5c074bff5ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cae8096a6f41a0a6617a9b8575632d5') in 0.051680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/BNG Framework/Prefabs/Ball.prefab
+  artifactKey: Guid(8b8746c815e84a54b800ff881a6de982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Ball.prefab using Guid(8b8746c815e84a54b800ff881a6de982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b182b8af479b394ac94e8481b42dec36') in 0.039173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/BNG Framework/Prefabs/Lever.prefab
+  artifactKey: Guid(ef468726c1414014495c05c3d6a51a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Lever.prefab using Guid(ef468726c1414014495c05c3d6a51a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e07c54f6496aa8989b5d5a20177463') in 0.044036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/BNG Framework/Prefabs/Robot Kyle Ragdoll.prefab
+  artifactKey: Guid(2e0c95be6f409114fbe7d777a1b28811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Robot Kyle Ragdoll.prefab using Guid(2e0c95be6f409114fbe7d777a1b28811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d1ff6dbe3043b7efa468911a815666') in 0.043429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/BNG Framework/Prefabs/UIExample.prefab
+  artifactKey: Guid(e4819389334c4504290937beeb9cd43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/UIExample.prefab using Guid(e4819389334c4504290937beeb9cd43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95518b4285a9605507fc039b608389e4') in 0.044461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/BNG Framework/Prefabs/ToolTip.prefab
+  artifactKey: Guid(6c93b07b2d8f6124cbdcd7226e313a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/ToolTip.prefab using Guid(6c93b07b2d8f6124cbdcd7226e313a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7702d1fc78c88f34ef73247118aa977e') in 0.030460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/BNG Framework/Prefabs
+  artifactKey: Guid(13525ee67fdf9a942ae59545c80f12c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs using Guid(13525ee67fdf9a942ae59545c80f12c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb42c422693cfb7f8c552bdbaa65aed') in 0.015693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/ShellEmpty.prefab
+  artifactKey: Guid(8e6416e07b49a3b408f1e28f76181c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/ShellEmpty.prefab using Guid(8e6416e07b49a3b408f1e28f76181c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deb28791e8e6ad59affcb42a6ff5b15') in 0.388944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/BNG Framework/Prefabs/Weapons/Shell.prefab
+  artifactKey: Guid(40171d90eb0131e4ba4e6b623bdb9884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Weapons/Shell.prefab using Guid(40171d90eb0131e4ba4e6b623bdb9884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e43a0fbeec145ee1ed3bb1d01193627') in 0.028217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BNG Framework/Prefabs/Vehicle With Player.prefab
+  artifactKey: Guid(c9f133ecc885890458e03180bc40dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Vehicle With Player.prefab using Guid(c9f133ecc885890458e03180bc40dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b470235561e3136d87245ab03966a9') in 0.068140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/BNG Framework/Prefabs/SlideDrawer.prefab
+  artifactKey: Guid(a26c3d0cae0a86144b7d8155ff0c08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/SlideDrawer.prefab using Guid(a26c3d0cae0a86144b7d8155ff0c08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452e894b1204b4e7f3216466a4bcecd0') in 0.040358 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -5,23 +5,827 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637992578670520454
-    m_Hash: 2405387192
+      ticks: 637993371049358528
+    m_Hash: 4199775431
   m_LockFileStatus:
     m_FilePath: C:/Users/adama/Documents/GitHub/VR Game SWP/SWP-Jahresprojekt-VRGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637992578685602027
-    m_Hash: 517873031
+      ticks: 637994222110714913
+    m_Hash: 3573148314
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/adama/Documents/GitHub/VR Game SWP/SWP-Jahresprojekt-VRGame/Packages
-m_EditorVersion: 2023.1.0a10 (ce8bd7b0b232)
+m_EditorVersion: 2021.1.21f1 (f2d5d3c59f8c)
 m_ResolvedPackages:
+- packageId: com.unity.ext.nunit@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.ext.nunit@1.0.0
+  assetPath: Packages/com.unity.ext.nunit
+  name: com.unity.ext.nunit
+  displayName: Custom NUnit
+  author:
+    name: 
+    email: 
+    url: 
+  category: Libraries
+  type: 
+  description: Custom version of the nunit package build to work with Unity. Used
+    by the Unity Test Framework.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
+    - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    compatible:
+    - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    verified: 1.0.6
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - nunit
+  - unittest
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 636898893830000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/com.unity.ext.nunit.git
+    revision: c8f5044ffe6adb909f9836160b0bdaa30f2d1ec9
+    path: 
+  unityLifecycle:
+    version: 1.0.6
+    nextVersion: 
+- packageId: com.unity.inputsystem@1.3.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.3.0
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.inputsystem@1.3.0
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    compatible:
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    verified: 1.0.2
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637769972190000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: 76d3fd182183dff9e9793431de614fd1e69e363c
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+- packageId: com.unity.test-framework@1.1.14
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.14
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.test-framework@1.1.14
+  assetPath: Packages/com.unity.test-framework
+  name: com.unity.test-framework
+  displayName: Test Framework
+  author:
+    name: 
+    email: 
+    url: 
+  category: Unity Test Framework
+  type: 
+  description: Test framework for running Edit mode and Play mode tests in Unity.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 1.1.31
+    - 1.1.33
+    - 2.0.1-exp.1
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
+    compatible:
+    - 1.1.29
+    - 1.1.30
+    - 1.1.31
+    - 1.1.33
+    - 2.0.1-exp.1
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
+    verified: 1.1.33
+  dependencies:
+  - name: com.unity.ext.nunit
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ext.nunit
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - Test
+  - TestFramework
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637230856490000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
+    revision: 25d6ff2e3936e31fdfd58486fad3a3bc90d6e3c6
+    path: 
+  unityLifecycle:
+    version: 1.1.29
+    nextVersion: 
+- packageId: com.unity.textmeshpro@2.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.textmeshpro@2.0.1
+  assetPath: Packages/com.unity.textmeshpro
+  name: com.unity.textmeshpro
+  displayName: TextMesh Pro
+  author:
+    name: 
+    email: 
+    url: 
+  category: Text Rendering
+  type: 
+  description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the perfect
+    replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+    Powerful and
+    easy to use, TextMesh Pro uses Advanced Text Rendering techniques along with
+    a set of custom shaders; delivering substantial visual quality improvements while
+    giving users incredible flexibility when it comes to text styling and texturing.
+
+
+    TextMesh
+    Pro provides Improved Control over text formatting and layout with features like
+    character, word, line and paragraph spacing, kerning, justified text, Links,
+    over 30 Rich Text Tags available, support for Multi Font & Sprites, Custom Styles
+    and more.
+
+
+    Great performance. Since the geometry created by TextMesh Pro
+    uses two triangles per character just like Unity''s text components, this improved
+    visual quality and flexibility comes at no additional performance cost.
+
+
+
+    Special
+    Notes:
+
+    ==========
+
+    This release requires .Net 4.x Scripting Runtime'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.2
+    - 1.0.21
+    - 1.0.23
+    - 1.0.25
+    - 1.0.26
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-preview
+    - 1.3.0
+    - 1.4.0-preview.1b
+    - 1.4.0-preview.2a
+    - 1.4.0-preview.3a
+    - 1.4.0
+    - 1.4.1-preview.1
+    - 1.4.1
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 1.5.0-preview.8
+    - 1.5.0-preview.10
+    - 1.5.0-preview.11
+    - 1.5.0-preview.12
+    - 1.5.0-preview.13
+    - 1.5.0-preview.14
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.6.0-preview.1
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.1
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.1.0-preview.8
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 2.1.0-preview.12
+    - 2.1.0-preview.13
+    - 2.1.0-preview.14
+    - 2.1.0
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 3.0.0-preview.1
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.5
+    - 3.0.0-preview.7
+    - 3.0.0-preview.8
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 3.0.0-preview.13
+    - 3.0.0-preview.14
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 4.0.0-pre.1
+    compatible:
+    - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    verified: 3.0.6
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - TextMeshPro
+  - TextMesh Pro
+  - Text
+  - SDF
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 636933709630000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://gitlab.cds.internal.unity3d.com/upm-packages/text/com.unity.textmeshpro.git
+    revision: dcedac21
+    path: 
+  unityLifecycle:
+    version: 3.0.6
+    nextVersion: 
+- packageId: com.unity.ugui@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.ugui@1.0.0
+  assetPath: Packages/com.unity.ugui
+  name: com.unity.ugui
+  displayName: Unity UI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "Unity UI is a set of tools for developing user interfaces for games
+    and applications. It is a GameObject-based UI system that uses Components and
+    the Game View to arrange, position, and style user interfaces. \u200B You cannot
+    use Unity UI to create or change user interfaces in the Unity Editor."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - UI
+  - ugui
+  - Unity UI
+  - Canvas
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.xr.management@3.2.16
+  testable: 0
+  isDirectDependency: 1
+  version: 3.2.16
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.xr.management@3.2.16
+  assetPath: Packages/com.unity.xr.management
+  name: com.unity.xr.management
+  displayName: XR Plugin Management
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Package to provide for simple management of XR plug-ins. Provides
+    help and management for loading, initialization, settings, and build support
+    for XR plug-ins.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.8
+    - 0.1.0-preview.12
+    - 1.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.6
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.13
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    - 2.0.0-preview.26
+    - 3.0.1
+    - 3.0.2-preview.1
+    - 3.0.2-preview.2
+    - 3.0.3
+    - 3.0.4-preview.1
+    - 3.0.4-preview.3
+    - 3.0.4
+    - 3.0.5-preview.1
+    - 3.0.5
+    - 3.0.6-preview.2
+    - 3.0.6
+    - 3.1.0-preview.2
+    - 3.2.4
+    - 3.2.6
+    - 3.2.7
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11-preview.1
+    - 3.2.12
+    - 3.2.13
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0-exp.2
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    compatible:
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    verified: 4.1.0
+  dependencies:
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.2
+  - name: com.unity.subsystemregistration
+    version: 1.0.6
+  resolvedDependencies:
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  keywords:
+  - xr
+  - sdk
+  - ar
+  - vr
+  - management
+  - build
+  - plugin
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637377029510000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+    revision: a502c5ffdef34dcbae312ceb5ab87af156125187
+    path: 
+  unityLifecycle:
+    version: 4.1.0
+    nextVersion: 
+- packageId: com.unity.xr.oculus@1.3.4
+  testable: 0
+  isDirectDependency: 1
+  version: 1.3.4
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.xr.oculus@1.3.4
+  assetPath: Packages/com.unity.xr.oculus
+  name: com.unity.xr.oculus
+  displayName: Oculus XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides display and input support for Oculus devices.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview
+    - 0.1.2-preview.1
+    - 0.8.4-preview
+    - 1.0.0-preview.4
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3-preview.1
+    - 1.1.0-preview
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2
+    - 1.1.3-preview
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4-preview.1
+    - 1.1.4
+    - 1.1.5-preview
+    - 1.1.5
+    - 1.2.0-preview.1
+    - 1.2.0
+    - 1.3.1
+    - 1.3.3
+    - 1.3.4
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0
+    - 1.4.3
+    - 1.5.0
+    - 1.5.1
+    - 1.6.0-preview.1
+    - 1.6.0-preview.2
+    - 1.6.1
+    - 1.7.0-preview.1
+    - 1.7.0-preview.2
+    - 1.7.0
+    - 1.8.1
+    - 1.9.0-preview.1
+    - 1.9.0
+    - 1.9.1
+    - 1.10.0-preview.1
+    - 1.10.0-preview.2
+    - 1.10.0
+    - 1.10.1-preview.3
+    - 1.11.0
+    - 1.11.2
+    - 1.12.0
+    - 1.12.1
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.2-preview.1
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0-pre.4
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    compatible:
+    - 1.10.0
+    - 1.10.1-preview.3
+    - 1.11.0
+    - 1.11.2
+    - 1.12.0
+    - 1.12.1
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.2-preview.1
+    - 3.0.0-pre.2
+    verified: 1.10.0
+  dependencies:
+  - name: com.unity.xr.management
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 3.2.16
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - oculus
+  - xr
+  - vr
+  - virtual
+  - rift
+  - quest
+  - go
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637250795770000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
+    revision: 8ae255c850095578305b585fb83c73b95ec644d5
+    path: 
+  unityLifecycle:
+    version: 1.10.0
+    nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -46,21 +850,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -73,17 +877,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -107,21 +900,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -134,17 +927,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -169,21 +951,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -196,17 +978,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -231,21 +1002,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -258,17 +1029,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -293,21 +1053,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -320,17 +1080,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -355,8 +1104,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -365,15 +1113,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -386,17 +1135,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -421,8 +1159,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -435,15 +1172,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -456,17 +1194,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -492,21 +1219,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -519,17 +1246,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -554,21 +1270,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -581,17 +1297,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -616,21 +1321,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -643,17 +1348,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -678,21 +1372,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -705,17 +1399,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -740,21 +1423,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -767,17 +1450,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -802,21 +1474,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -829,17 +1501,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -864,8 +1525,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -874,15 +1534,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -895,17 +1556,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -930,21 +1580,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -957,17 +1607,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -992,8 +1631,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1006,15 +1644,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1027,17 +1666,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1061,8 +1689,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -1071,15 +1698,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1092,17 +1720,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1127,21 +1744,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1154,17 +1771,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1189,14 +1795,15 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
@@ -1205,17 +1812,20 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1228,17 +1838,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1263,21 +1862,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1290,17 +1889,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1325,8 +1913,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1339,15 +1926,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1360,17 +1948,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1395,21 +1972,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1422,17 +1999,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1457,8 +2023,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -1471,15 +2036,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1492,17 +2058,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1527,8 +2082,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1541,15 +2095,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1562,17 +2117,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1597,8 +2141,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1611,15 +2154,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1632,17 +2176,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1667,8 +2200,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1697,15 +2229,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1718,17 +2251,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1753,8 +2275,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1763,15 +2284,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1784,17 +2306,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1819,8 +2330,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1837,15 +2347,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1858,17 +2369,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1893,8 +2393,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1913,15 +2412,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1934,17 +2434,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1969,21 +2458,21 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1996,17 +2485,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2031,8 +2509,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2049,15 +2526,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2070,17 +2548,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -2105,8 +2572,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -2115,15 +2581,16 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: main
+    id: 
     name: 
-    url: https://packages.unity.com
+    url: 
     scopes: []
-    isDefault: 1
-    capabilities: 7
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2136,14 +2603,231 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
+- packageId: com.unity.modules.uielementsnative@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  assetPath: Packages/com.unity.modules.uielementsnative
+  name: com.unity.modules.uielementsnative
+  displayName: UIElements Native
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
     revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.8
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.8
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: 
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    compatible:
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    verified: 2.1.10
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637623088970000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
+    path: 
+  unityLifecycle:
+    version: 2.1.8
+    nextVersion: 
+- packageId: com.unity.subsystemregistration@1.1.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.1.0
+  source: 1
+  resolvedPath: C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+  assetPath: Packages/com.unity.subsystemregistration
+  name: com.unity.subsystemregistration
+  displayName: Subsystem Registration
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides internal registration mechanism for standalone subsystems. 
+    It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.1.0
+    - 1.1.1
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    verified: 1.1.1
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - subsystem
+  - registration
+  - internal
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637314426150000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
+    revision: 72584ba5248fbe79e560e795ad819f876954fceb
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 

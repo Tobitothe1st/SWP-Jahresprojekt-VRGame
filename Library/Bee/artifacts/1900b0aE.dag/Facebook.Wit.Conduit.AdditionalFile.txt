@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-C:\Users\adama\Documents\GitHub\VR Game SWP\SWP-Jahresprojekt-VRGame
-=======
-C:\Users\adama\Documents\GitHub\VR Game SWP
->>>>>>> main

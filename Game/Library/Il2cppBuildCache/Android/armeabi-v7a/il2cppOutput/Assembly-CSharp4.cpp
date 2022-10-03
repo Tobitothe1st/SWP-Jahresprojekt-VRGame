@@ -450,6 +450,8 @@ struct Marker_t7CBE49F86C2ADCE4E08716AE1CE29161463AD8EE;
 struct Material_t8927C00353A72755313F046D0CE85178AE8218EE;
 // MediaPlayerImage
 struct MediaPlayerImage_t06FC183F03A631AC1C7C7CA2FA0E2089AF949694;
+// MenuButtons
+struct MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9;
 // VRUiKits.Utils.MenuItem
 struct MenuItem_t397912636565373D626A8DDBC5C8E1CF029B5E4E;
 // UnityEngine.Mesh
@@ -785,6 +787,7 @@ IL2CPP_EXTERN_C RuntimeClass* OnToggleValueChange_t944E2D793A90212A941AF225DFE93
 IL2CPP_EXTERN_C RuntimeClass* PlaneU5BU5D_t33BCF5C401A053481BF4098B8D32E6C5DD53B9FD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ReleasedObject_t7A080EB2BA790071CC814141640FD2DFA546E99B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SetCursorPosition_t7FBF97425044FABAAF1A59AF3E1A07D64C41DEA3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Shift_tB803BB8483DF4AAF0D93283DABE038CE9F859B86_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
@@ -14796,6 +14799,25 @@ public:
 };
 
 
+// MenuButtons
+struct MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// System.String MenuButtons::scene
+	String_t* ___scene_4;
+
+public:
+	inline static int32_t get_offset_of_scene_4() { return static_cast<int32_t>(offsetof(MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9, ___scene_4)); }
+	inline String_t* get_scene_4() const { return ___scene_4; }
+	inline String_t** get_address_of_scene_4() { return &___scene_4; }
+	inline void set_scene_4(String_t* value)
+	{
+		___scene_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___scene_4), (void*)value);
+	}
+};
+
+
 // VRUiKits.Utils.MobileKeyboardManager
 struct MobileKeyboardManager_t15C9E804135EDF09C43083E4C444BB0DA060AEB1  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -24425,6 +24447,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_Lerp_m8A2A50B945F42D579EDF44D5EE7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexHelper_AddTriangle_m1EE93E4BF27E3BCCE69A348358FAF605105B63C6 (VertexHelper_tDE8B67D3B076061C4F8DF325B0D63ED2E5367E55 * __this, int32_t ___idx00, int32_t ___idx11, int32_t ___idx22, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.Image::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image__ctor_m11AB7390F778F2BA5F3B110654400201123F1924 (Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092 (String_t* ___sceneName0, const RuntimeMethod* method);
 // System.Void VRUiKits.Utils.Item::Activate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_Activate_mBF571E09F271F464C48FF65F6DBF5D59CFD8EAFA (Item_tA7B6F93143ADB2607EEC982F6AC02B17899C308E * __this, const RuntimeMethod* method);
 // System.Void VRUiKits.Utils.Item::Deactivate()
@@ -30208,6 +30232,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MediaPlayerImage__ctor_mB86C91BF2885DC32
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C_il2cpp_TypeInfo_var);
 		Image__ctor_m11AB7390F778F2BA5F3B110654400201123F1924(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void MenuButtons::LoadScene()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuButtons_LoadScene_m28BE72C67A1520C224287863BCF07E18D48DA176 (MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SceneManager.LoadScene(scene);
+		String_t* L_0 = __this->get_scene_4();
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void MenuButtons::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuButtons__ctor_mDBCFF32544B4BB15E865BE14FDA0A71487BFF485 (MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

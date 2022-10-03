@@ -519,6 +519,7 @@
 "Assets/BNG Framework/Scripts/Weapons/Projectile.cs"
 "Assets/BNG Framework/Scripts/Weapons/RaycastWeapon.cs"
 "Assets/BNG Framework/Scripts/Weapons/WeaponSlide.cs"
+"Assets/MenuButtons.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/HandPose.cs"
 "Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs"

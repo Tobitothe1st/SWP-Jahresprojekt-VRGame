@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -315,22 +315,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/External
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/External
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\adama\Documents\GitHub\VR-Game-SWP\Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d26b0200
-    m_LastClickedID: 158674
-    m_ExpandedIDs: 00000000489000001e9100001a92000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ce910000
+    m_LastClickedID: 37326
+    m_ExpandedIDs: 00000000fa90000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -358,7 +358,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000048900000
+    m_ExpandedIDs: 00000000fa900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000aec20100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -482,9 +482,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 489effff
-      m_LastClickedID: -25016
-      m_ExpandedIDs: e09dfffff49dffff089effff1c9effff229effff4c9effff509effff5c9effff629effff649effff9aa8ffffbeb0ffff06b1ffff38e2ffffe4f9fffffef9ffff0afaffff16faffff2afaffff2efaffff3afaffff42faffff4efbffffe2660000861c0200f81f0200
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8c4ffeffd24ffeffd05bfeffd45bfeffe45ffeff1260feff1486feff6086feff5e8bfeff0aa4feff54f7feff96f7feff7afdfeff7efdfeff9001ffffd401fffff007ffff6025ffffc633ffffe237ffffb238ffff345bffff585bffff625bffff4a60ffff1264ffff5264ffff5464ffff2468ffff6868ffff646effff9c99ffff989bffffce9bffff3ec7ffff7cf2ffffc6f2ffff4efbffff0c6700002867000030670000326700003c67000040670000080d0100220d0100240d0100300d01003a0d01003e0d0100d21e0200ee1e0200fa1e0200021f0200041f0200081f0200aebd0300eac20300fac2030002c3030004c3030036820400768704008c87040090870400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -545,9 +545,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.010312455, y: -6.843305, z: 36.72622}
+    m_Target: {x: -26.994354, y: -0.0038701151, z: 32.449947}
     speed: 2
-    m_Value: {x: -0.010312455, y: -6.843305, z: 36.72622}
+    m_Value: {x: -26.994354, y: -0.0038701151, z: 32.449947}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -594,13 +594,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1526859, y: 0.01987482, z: -0.003051272, w: -0.9881027}
+    m_Target: {x: -0.023762925, y: 0.39141402, z: -0.01007256, w: -0.91989285}
     speed: 2
-    m_Value: {x: -0.15119873, y: 0.01987874, z: -0.0030213555, w: -0.9882989}
+    m_Value: {x: -0.023762047, y: 0.39139956, z: -0.0100721875, w: -0.9198589}
   m_Size:
-    m_Target: 18.082718
+    m_Target: 18.936863
     speed: 2
-    m_Value: 18.082718
+    m_Value: 18.936863
   m_Ortho:
     m_Target: 0
     speed: 2

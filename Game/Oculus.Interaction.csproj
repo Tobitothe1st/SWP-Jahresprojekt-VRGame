@@ -187,8 +187,8 @@
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Extensions\MonoBehaviourStartExtensions.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Selection\Controllers\ControllerSelector.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Ray\Visuals\HandRayInteractorCursorVisual.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\DataSource.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Attributes\ConditionalHideAttribute.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\DataSource.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Core\InteractableGroup.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\InteractorReticle.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Attributes\OptionalAttribute.cs" />

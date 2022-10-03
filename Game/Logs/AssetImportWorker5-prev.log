@@ -1,0 +1,302 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.21f1 (f2d5d3c59f8c) revision 15914451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.2006; Version 2009; 64bit' Language: 'de' Physical Memory: 7843 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/adama/Documents/GitHub/VR-Game-SWP/Game
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+64375
+Successfully changed project path to: C:/Users/adama/Documents/GitHub/VR-Game-SWP/Game
+C:/Users/adama/Documents/GitHub/VR-Game-SWP/Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 669.67 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 4.67 ms.
+Initialize engine version: 2021.1.21f1 (f2d5d3c59f8c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adama/Documents/GitHub/VR-Game-SWP/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 3 Graphics (ID=0x15dd)
+    Vendor:   ATI
+    VRAM:     3921 MB
+    Driver:   27.20.15002.8001
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009502 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 549.64 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8936ms)
+		BeginReloadAssembly (290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2126ms)
+			LoadAssemblies (279ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (816ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1055ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (551ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.047189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adama\Documents\GitHub\VR-Game-SWP\Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adama\Documents\GitHub\VR-Game-SWP\Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 432.73 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.75.0
+Mono: successfully reloaded assembly
+- Completed reload, in  5.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5486ms)
+		BeginReloadAssembly (608ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (4650ms)
+			LoadAssemblies (571ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (252ms)
+			SetupLoadedEditorAssemblies (2179ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (433ms)
+				BeforeProcessingInitializeOnLoad (293ms)
+				ProcessInitializeOnLoadAttributes (1336ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 4845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.9 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 5273.
+Total: 19.884600 ms (FindLiveObjects: 3.122800 ms CreateObjectMapping: 1.004600 ms MarkObjects: 15.587800 ms  DeleteObjects: 0.165900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UIKits
+  artifactKey: Guid(868d807beb17205479edee19eac56211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits using Guid(868d807beb17205479edee19eac56211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f85212632961ef20099f5f716995cb') in 0.041280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/UIKits/README.pdf
+  artifactKey: Guid(fa2954307c3d54a7a804724fd31f444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/README.pdf using Guid(fa2954307c3d54a7a804724fd31f444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf50f1bab71df21f4e7207f7c90ae06') in 0.112976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.910363 seconds.
+  path: Assets/UIKits/Demo
+  artifactKey: Guid(262cb6a196175654ea3b83dcde0048a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Demo using Guid(262cb6a196175654ea3b83dcde0048a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccef5df5c6eb53293c301b62a3df982') in 0.020366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.901252 seconds.
+  path: Assets/UIKits/Demo/Gaze.unity
+  artifactKey: Guid(8411852f3440d304fa8ef391e4cab0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Demo/Gaze.unity using Guid(8411852f3440d304fa8ef391e4cab0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deafdc569e05ff2356d544add1264126') in 0.026747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.191327 seconds.
+  path: Assets/UIKits/Demo/GazePreview(NoHeadset).unity
+  artifactKey: Guid(27a6a43c1ec08e14885489b8166f07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Demo/GazePreview(NoHeadset).unity using Guid(27a6a43c1ec08e14885489b8166f07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0890f7cee1c1ab55f71db3fafcb4f064') in 0.022657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.408953 seconds.
+  path: Assets/UIKits/Demo/Mouse.unity
+  artifactKey: Guid(062c98c771dc233449214e9db3a9d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Demo/Mouse.unity using Guid(062c98c771dc233449214e9db3a9d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c796f328363c55c3167a21cc31f66a44') in 0.025371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.172561 seconds.
+  path: Assets/UIKits/Demo/OculusLaserDemo(Quest).unity
+  artifactKey: Guid(22ebe08f730d0a74b94167b1d1659fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Demo/OculusLaserDemo(Quest).unity using Guid(22ebe08f730d0a74b94167b1d1659fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d978f8a6c9dfd3836ad44616920aa12') in 0.025675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.357848 seconds.
+  path: Assets/UIKits/Demo/OculusLaserDemo.unity
+  artifactKey: Guid(2e35d68ecf4404d47a41523a8c935621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Demo/OculusLaserDemo.unity using Guid(2e35d68ecf4404d47a41523a8c935621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57441004294908931e484ae872ce2c02') in 0.022932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.166437 seconds.
+  path: Assets/UIKits/Demo/ViveLaserDemo(SteamVR1).unity
+  artifactKey: Guid(a98ea50ff1e75b341875c991c30e5e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Demo/ViveLaserDemo(SteamVR1).unity using Guid(a98ea50ff1e75b341875c991c30e5e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dff2a1327c452bee9a3ee82ed9bff7b') in 0.028395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.881215 seconds.
+  path: Assets/UIKits/Prefabs
+  artifactKey: Guid(5cef2bf1d17277a48b351bee86ddfea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs using Guid(5cef2bf1d17277a48b351bee86ddfea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13969b2cc861e098ef04afef417749d') in 0.018886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036166 seconds.
+  path: Assets/UIKits/Prefabs/GazePointer.prefab
+  artifactKey: Guid(40dbd7f8980a0324ca9eb13b9352f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/GazePointer.prefab using Guid(40dbd7f8980a0324ca9eb13b9352f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ab425d2bc8b83acd86066042fe011b') in 0.090190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/UIKits/Prefabs/UIKitPointer.prefab
+  artifactKey: Guid(a04745b2f6eda6c4aae50f5029085d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/UIKitPointer.prefab using Guid(a04745b2f6eda6c4aae50f5029085d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b92e7bd38d845f28542036b1d32cd1') in 0.184793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.948169 seconds.
+  path: Assets/UIKits/Prefabs/Inputs
+  artifactKey: Guid(9ff86f1b4e4fc9043ae79f09f57443f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/Inputs using Guid(9ff86f1b4e4fc9043ae79f09f57443f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eed388afa4810855b7d68f58d8ae63') in 0.019054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040082 seconds.
+  path: Assets/UIKits/Prefabs/Inputs/InputDefaultStyle.prefab
+  artifactKey: Guid(a8421f3a5f5bc97499e3da7f59ff45fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/Inputs/InputDefaultStyle.prefab using Guid(a8421f3a5f5bc97499e3da7f59ff45fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23444c34721a2af07327d43292f2b678') in 0.057357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/UIKits/Prefabs/Inputs/InputLineStyle.prefab
+  artifactKey: Guid(46dc93e9b619a4d3db1f64a6ac0f21f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/Inputs/InputLineStyle.prefab using Guid(46dc93e9b619a4d3db1f64a6ac0f21f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a649acc88ecabee8500c0119cde1ce9e') in 0.029493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.984731 seconds.
+  path: Assets/UIKits/Prefabs/ProgressBar
+  artifactKey: Guid(ab71371fb8ce67648a046b95036c4ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/ProgressBar using Guid(ab71371fb8ce67648a046b95036c4ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8acf79ca984817009ba2eebb5905355') in 0.019904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011049 seconds.
+  path: Assets/UIKits/Prefabs/ProgressBar/AdjustableBar-L1.prefab
+  artifactKey: Guid(e4af92c16db845c4a95b056d6ad99f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/ProgressBar/AdjustableBar-L1.prefab using Guid(e4af92c16db845c4a95b056d6ad99f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbb4a4c98954c6a9f4d30f41532706f') in 0.046351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/UIKits/Prefabs/ProgressBar/AdjustableBarWithLabel-L1.prefab
+  artifactKey: Guid(68e88e0c8a544493ba3ac8910dffed8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/ProgressBar/AdjustableBarWithLabel-L1.prefab using Guid(68e88e0c8a544493ba3ac8910dffed8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b393328edef7ac23e1e62287aa3ce33') in 0.030007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/UIKits/Prefabs/ProgressBar/ProgressBar.prefab
+  artifactKey: Guid(fab8017fb1048480fa17f4b52d2fb618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/ProgressBar/ProgressBar.prefab using Guid(fab8017fb1048480fa17f4b52d2fb618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97713b5f5656eee7904228842a36863b') in 0.017303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/UIKits/Prefabs/ProgressBar/AdjustableBar-L2.prefab
+  artifactKey: Guid(98468ced8c3ca417297e341c7d369404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Prefabs/ProgressBar/AdjustableBar-L2.prefab using Guid(98468ced8c3ca417297e341c7d369404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e693ef75b49ee9d45d1908f62de4a3') in 0.027013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.670192 seconds.
+  path: Assets/UIKits/Content
+  artifactKey: Guid(e8ea75a18d165cf4fa200491a634d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Content using Guid(e8ea75a18d165cf4fa200491a634d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd48290de7ec74a264623c263913b01') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036839 seconds.
+  path: Assets/UIKits/Content/UIKitSprites.spriteatlas
+  artifactKey: Guid(af8d2e99a5742b0428720ad64669556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Content/UIKitSprites.spriteatlas using Guid(af8d2e99a5742b0428720ad64669556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd2a2a3b016de2368be6f535afb1d15') in 0.023591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.822039 seconds.
+  path: Assets/UIKits/Content/Materials
+  artifactKey: Guid(a065c747257a1774390f4e460999dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Content/Materials using Guid(a065c747257a1774390f4e460999dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9855cab3f1ffe27aabb2b6472bfb6268') in 0.017553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014935 seconds.
+  path: Assets/UIKits/Content/Materials/Laser.mat
+  artifactKey: Guid(2782ceab23aacbf46b3b89e718221bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Content/Materials/Laser.mat using Guid(2782ceab23aacbf46b3b89e718221bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eccc2b183bc09ace14ac5c077512db5') in 0.078881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/UIKits/Content/Materials/UIKitDefault.mat
+  artifactKey: Guid(1219578208632c048a98bb2679317d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIKits/Content/Materials/UIKitDefault.mat using Guid(1219578208632c048a98bb2679317d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f93efdcb12862310b7a0ea33c207a42') in 0.039010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.088503 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(387ca2b758fcd5b40881523141247ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(387ca2b758fcd5b40881523141247ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c849b03d40bdec0240968fedbe88a34e') in 0.021451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 226.097201 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(387ca2b758fcd5b40881523141247ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(387ca2b758fcd5b40881523141247ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5feaf58a0e8d8499790c29daa6cae3') in 0.023093 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

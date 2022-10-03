@@ -54,9 +54,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\BNG Framework\Editor\ClimbableEditor.cs" />
+    <Compile Include="Assets\UIKits\Scripts\UI\RadialMenu\Editor\RadialMenuManagerEditor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Editor\OVROverlayCanvasEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\GrabPointEditor.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Editor\AutoPoserEditor.cs" />
+    <Compile Include="Assets\UIKits\Scripts\Editor\OptionDataEditor.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildSamples.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
     <Compile Include="Assets\BNG Framework\Editor\ExplosiveEditor.cs" />
@@ -64,8 +66,12 @@
     <Compile Include="Assets\BNG Framework\Editor\GrabbableEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\ButtonEditor.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoseSaveAs.cs" />
+    <Compile Include="Assets\UIKits\Scripts\Editor\DeviceControl.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoseEditor.cs" />
+    <Compile Include="Assets\UIKits\Scripts\TextMeshPro\Editor\TextMeshProConverterWindow.cs" />
+    <Compile Include="Assets\UIKits\Scripts\InputModule\Editor\LaserInputModuleEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\TrackedDeviceEditor.cs" />
+    <Compile Include="Assets\UIKits\Scripts\InputModule\Editor\GazeInputModuleEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\VRIFGrabpointUpdaterEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\LeverEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\PluginsEditor.cs" />
@@ -78,6 +84,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\AndroidVideoEditorUtil.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\Editor\TeleportTransitionWarpInspector.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\MediaPlayerImageEditor.cs" />
+    <Compile Include="Assets\UIKits\Scripts\Editor\CardDataEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

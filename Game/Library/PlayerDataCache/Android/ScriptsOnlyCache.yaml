@@ -70,6 +70,16 @@ ScriptsOnlyBuild:
     - BNG.VRCanvas
     - BNG.VREmulator
     - BNG.VRUtils
+    - VRUiKits.Utils.Alphabet
+    - VRUiKits.Utils.InputFocusHelper
+    - VRUiKits.Utils.KeyboardExtentionMethods
+    - VRUiKits.Utils.KeyboardManager
+    - VRUiKits.Utils.KeyboardSuggestions
+    - VRUiKits.Utils.ListSelectionHelper
+    - VRUiKits.Utils.Number
+    - VRUiKits.Utils.SuggestionButton
+    - VRUiKits.Utils.Symbol
+    - VRUiKits.Utils.TabItem
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -88,8 +98,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.Editor.dll:
-    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
@@ -101,14 +109,17 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Development.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -158,171 +169,171 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1718}
-    - Class: 114
       Script: {instanceID: 1722}
     - Class: 114
       Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 1728}
+      Script: {instanceID: 1726}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1732}
     - Class: 114
-      Script: {instanceID: 1906}
+      Script: {instanceID: 1736}
+    - Class: 114
+      Script: {instanceID: 1744}
     - Class: 114
       Script: {instanceID: 1912}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1918}
     - Class: 114
-      Script: {instanceID: 2348}
+      Script: {instanceID: 2212}
     - Class: 114
-      Script: {instanceID: 2352}
+      Script: {instanceID: 2366}
     - Class: 114
-      Script: {instanceID: 2508}
+      Script: {instanceID: 2370}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2526}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 2966}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 3190}
+      Script: {instanceID: 3206}
     - Class: 114
-      Script: {instanceID: 3254}
+      Script: {instanceID: 3216}
     - Class: 114
-      Script: {instanceID: 3504}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3704}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 3842}
+      Script: {instanceID: 3736}
     - Class: 114
-      Script: {instanceID: 3938}
+      Script: {instanceID: 3882}
     - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 3976}
     - Class: 114
-      Script: {instanceID: 4080}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 4212}
+      Script: {instanceID: 4250}
     - Class: 114
-      Script: {instanceID: 4310}
+      Script: {instanceID: 4348}
     - Class: 114
-      Script: {instanceID: 4668}
+      Script: {instanceID: 4714}
     - Class: 114
-      Script: {instanceID: 4802}
+      Script: {instanceID: 4850}
     - Class: 114
-      Script: {instanceID: 4862}
+      Script: {instanceID: 4914}
     - Class: 114
-      Script: {instanceID: 4868}
+      Script: {instanceID: 4920}
     - Class: 114
-      Script: {instanceID: 5004}
+      Script: {instanceID: 5060}
     - Class: 114
-      Script: {instanceID: 5034}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 5102}
+      Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 5132}
+      Script: {instanceID: 5188}
     - Class: 114
-      Script: {instanceID: 5204}
+      Script: {instanceID: 5260}
     - Class: 114
-      Script: {instanceID: 5398}
-    - Class: 114
-      Script: {instanceID: 5406}
-    - Class: 114
-      Script: {instanceID: 5428}
-    - Class: 114
-      Script: {instanceID: 5448}
+      Script: {instanceID: 5456}
     - Class: 114
       Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5480}
+      Script: {instanceID: 5488}
     - Class: 114
-      Script: {instanceID: 5512}
+      Script: {instanceID: 5508}
     - Class: 114
-      Script: {instanceID: 5550}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 6170}
+      Script: {instanceID: 5540}
     - Class: 114
-      Script: {instanceID: 6408}
+      Script: {instanceID: 5572}
     - Class: 114
-      Script: {instanceID: 6618}
+      Script: {instanceID: 5610}
     - Class: 114
-      Script: {instanceID: 7046}
+      Script: {instanceID: 6250}
     - Class: 114
-      Script: {instanceID: 7144}
+      Script: {instanceID: 6494}
     - Class: 114
-      Script: {instanceID: 7472}
+      Script: {instanceID: 6704}
     - Class: 114
-      Script: {instanceID: 7618}
+      Script: {instanceID: 7138}
     - Class: 114
-      Script: {instanceID: 7740}
+      Script: {instanceID: 7236}
     - Class: 114
-      Script: {instanceID: 7826}
+      Script: {instanceID: 7574}
     - Class: 114
-      Script: {instanceID: 7830}
+      Script: {instanceID: 7720}
     - Class: 114
-      Script: {instanceID: 7936}
+      Script: {instanceID: 7844}
     - Class: 114
-      Script: {instanceID: 8078}
+      Script: {instanceID: 7930}
     - Class: 114
-      Script: {instanceID: 8384}
+      Script: {instanceID: 7934}
     - Class: 114
-      Script: {instanceID: 8466}
+      Script: {instanceID: 8042}
     - Class: 114
-      Script: {instanceID: 8534}
+      Script: {instanceID: 8186}
     - Class: 114
-      Script: {instanceID: 8570}
+      Script: {instanceID: 8494}
     - Class: 114
-      Script: {instanceID: 8616}
+      Script: {instanceID: 8578}
     - Class: 114
-      Script: {instanceID: 8800}
+      Script: {instanceID: 8646}
     - Class: 114
-      Script: {instanceID: 8990}
+      Script: {instanceID: 8682}
     - Class: 114
-      Script: {instanceID: 9162}
+      Script: {instanceID: 8728}
     - Class: 114
-      Script: {instanceID: 9378}
+      Script: {instanceID: 8914}
     - Class: 114
-      Script: {instanceID: 9492}
+      Script: {instanceID: 9106}
     - Class: 114
-      Script: {instanceID: 9528}
+      Script: {instanceID: 9284}
     - Class: 114
-      Script: {instanceID: 9572}
+      Script: {instanceID: 9500}
     - Class: 114
-      Script: {instanceID: 9586}
+      Script: {instanceID: 9616}
     - Class: 114
-      Script: {instanceID: 9610}
+      Script: {instanceID: 9654}
     - Class: 114
-      Script: {instanceID: 9874}
+      Script: {instanceID: 9698}
     - Class: 114
-      Script: {instanceID: 9986}
+      Script: {instanceID: 9712}
     - Class: 114
-      Script: {instanceID: 9994}
+      Script: {instanceID: 9736}
     - Class: 114
-      Script: {instanceID: 10188}
+      Script: {instanceID: 10004}
     - Class: 114
-      Script: {instanceID: 10208}
+      Script: {instanceID: 10116}
     - Class: 114
-      Script: {instanceID: 10368}
+      Script: {instanceID: 10124}
     - Class: 114
-      Script: {instanceID: 10434}
+      Script: {instanceID: 10318}
     - Class: 114
-      Script: {instanceID: 10566}
+      Script: {instanceID: 10338}
     - Class: 114
-      Script: {instanceID: 10654}
+      Script: {instanceID: 10500}
     - Class: 114
-      Script: {instanceID: 10720}
+      Script: {instanceID: 10568}
     - Class: 114
-      Script: {instanceID: 10834}
+      Script: {instanceID: 10704}
     - Class: 114
-      Script: {instanceID: 10844}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 10922}
+      Script: {instanceID: 10864}
+    - Class: 114
+      Script: {instanceID: 10978}
+    - Class: 114
+      Script: {instanceID: 10988}
+    - Class: 114
+      Script: {instanceID: 11068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -356,28 +367,28 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: c1d728126ff1918728036c59106d32b2
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: RawImage
-  - hash:
-      serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -396,6 +407,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -644,6 +661,18 @@ ScriptsOnlyBuild:
     className: BouncingBallMgr
   - hash:
       serializedVersion: 2
+      Hash: 2a3ebdc33d7904c92cc2318bdf16774d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: ImageHoverOutline
+  - hash:
+      serializedVersion: 2
+      Hash: 5854ade8b58352998b384f931bedb449
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: UIKitInputModule
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -662,6 +691,12 @@ ScriptsOnlyBuild:
     className: HandConfidenceVisual
   - hash:
       serializedVersion: 2
+      Hash: b4efe10dbffe7c60de058783506e560a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: OptionsManager
+  - hash:
+      serializedVersion: 2
       Hash: df96173c284a7dacaf5f917fc3e25280
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
@@ -672,6 +707,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: HandVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: InputFocusHelper
   - hash:
       serializedVersion: 2
       Hash: fd21d4f529a92d741f9f2f439eee6c47
@@ -792,6 +833,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
     className: SetDisplayRefresh
+  - hash:
+      serializedVersion: 2
+      Hash: 8a10d1fc6029b3f51d0abc87582fa9fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Item
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -978,6 +1025,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
     className: Damageable
+  - hash:
+      serializedVersion: 2
+      Hash: b15c1677df05379afae7ed37aef58967
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: RadialMenuManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1340,6 +1393,12 @@ ScriptsOnlyBuild:
     className: TeleportInputHandlerHMD
   - hash:
       serializedVersion: 2
+      Hash: 191000fa224b0190462d0199da410f38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleDynamicCardList
+  - hash:
+      serializedVersion: 2
       Hash: 1b67d4bb4648cb7d784398ebb0539b1b
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
@@ -1388,6 +1447,18 @@ ScriptsOnlyBuild:
     className: MoveFromTargetProvider
   - hash:
       serializedVersion: 2
+      Hash: 598c939b549909816744128aadcb4d71
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InvokeKeyboard
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: TextMeshProConverter
+  - hash:
+      serializedVersion: 2
       Hash: e14ff447aaf62d9737c2447a225fa4ec
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -1428,12 +1499,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
     className: InputBridge
-  - hash:
-      serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 2eb3b7ce36190a9853d8f260d9bd3a97
@@ -1524,6 +1589,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Demo
+    className: MouseLook
   - hash:
       serializedVersion: 2
       Hash: 39c534c5a29fde725775cc3f440c336d
@@ -1634,6 +1705,12 @@ ScriptsOnlyBuild:
     className: PauseOnInputLoss
   - hash:
       serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: MouseInputModule
+  - hash:
+      serializedVersion: 2
       Hash: a54ccccd7e5af5476f938e518911ccd9
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.PoseDetection
@@ -1644,6 +1721,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: InteractableToolsCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 2bdd951787ab2c9359b979e2cb34b92f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SwitchUI
   - hash:
       serializedVersion: 2
       Hash: b5d01a44c9a694c6b9bce4626dd0a12e
@@ -1683,6 +1766,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: LaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
@@ -1704,6 +1793,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DebugUIBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: SuggestionButton
   - hash:
       serializedVersion: 2
       Hash: 4df1c6db134b95499a814b783e266a83
@@ -1796,6 +1891,12 @@ ScriptsOnlyBuild:
     className: HandModelSelector
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleOptionControl
+  - hash:
+      serializedVersion: 2
       Hash: e14ff447aaf62d9737c2447a225fa4ec
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.GrabAPI
@@ -1836,6 +1937,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
     className: Lever
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Demo
+    className: ChangeColor
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1938,6 +2045,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRSceneSampleController
+  - hash:
+      serializedVersion: 2
+      Hash: ef34f4922e22d03de1a8f998a2ac81ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: RadialItem
   - hash:
       serializedVersion: 2
       Hash: 19eb1fe1e36de20979076dd7357b849c
@@ -2168,10 +2281,10 @@ ScriptsOnlyBuild:
     className: PoseableObject
   - hash:
       serializedVersion: 2
-      Hash: 742d00cbfc95b2729d490c7360cc4967
+      Hash: 619f2856d7e98a78adb790caf8f3fc28
     assemblyName: Assembly-CSharp.dll
-    namespaceName: BNG
-    className: ConstrainLocalPosition
+    namespaceName: VRUiKits.Utils
+    className: CardListManager
   - hash:
       serializedVersion: 2
       Hash: 0c2ecdae097ba779e0a9e100ed96bb10
@@ -2184,6 +2297,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.Samples.dll
     namespaceName: Oculus.Interaction.Samples
     className: CountdownTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 742d00cbfc95b2729d490c7360cc4967
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: ConstrainLocalPosition
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2384,10 +2503,22 @@ ScriptsOnlyBuild:
     className: PassthroughSurface
   - hash:
       serializedVersion: 2
+      Hash: 68860a538d967056b47d5f429b3a085c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: ScrollController
+  - hash:
+      serializedVersion: 2
       Hash: cb0ff001b99c82333d8541e0f4a02967
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.UnityCanvas
     className: CanvasRect
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed0a25876f6e9888dc37b4f0a43edd7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: TextHoverScale
   - hash:
       serializedVersion: 2
       Hash: d6b04dc356c18066ae2f919c82887693
@@ -2426,6 +2557,18 @@ ScriptsOnlyBuild:
     className: WitSimpleDynamicEntity
   - hash:
       serializedVersion: 2
+      Hash: 1567d32d87519fa61e583995462c9e44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: SliderProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 48a05d4bbe27b84570f28cbd5b7cc7b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: MobileKeyboardManager
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -2442,6 +2585,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
     className: GrabPointTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 0dc0a2edc97f47dca3c2d220ec168324
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: KeyboardSuggestions
   - hash:
       serializedVersion: 2
       Hash: 3238a9cd345ec2dddd562feef9935d0c
@@ -2534,6 +2683,12 @@ ScriptsOnlyBuild:
     className: InputSystemObject
   - hash:
       serializedVersion: 2
+      Hash: 7977e52dd7e2b62c048b3fb4d09e67c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: TabItem
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -2570,6 +2725,12 @@ ScriptsOnlyBuild:
     className: OVRVignette
   - hash:
       serializedVersion: 2
+      Hash: faded99b05f789bae83acec9b3927b7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleCardItemAction
+  - hash:
+      serializedVersion: 2
       Hash: b91c8e6d466992f4dca9529697a7a59e
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
@@ -2580,6 +2741,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: CylinderProximityField
+  - hash:
+      serializedVersion: 2
+      Hash: e11ff804a465ea8947c668a3476cb38e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Demo
+    className: KeyboardDisplay
   - hash:
       serializedVersion: 2
       Hash: baaff3513c586cf973eb5866e562f729
@@ -2604,6 +2771,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: P2PNetworkGoal
+  - hash:
+      serializedVersion: 2
+      Hash: c3f0c75530970e1fcd376409f6d3b3bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: GazeProgressCircle
   - hash:
       serializedVersion: 2
       Hash: a4b88f3b08f1f148e04c6c3d7544c9ec
@@ -2882,16 +3055,22 @@ ScriptsOnlyBuild:
     className: GlobalMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b253531d304ad5e896dfe4b9a1e900ed
+      Hash: 78b3f7eb24858849fd4aaebeaa0defca
     assemblyName: Assembly-CSharp.dll
-    namespaceName: BNG
-    className: Explosive
+    namespaceName: VRUiKits.Utils
+    className: UIKitInputField
   - hash:
       serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: b253531d304ad5e896dfe4b9a1e900ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BNG
+    className: Explosive
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -3098,6 +3277,18 @@ ScriptsOnlyBuild:
     className: OneGrabPhysicsJointTransformer
   - hash:
       serializedVersion: 2
+      Hash: 34d9ed2a1e9190460dc30bd8a3096a46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: ListSelectionHelper
+  - hash:
+      serializedVersion: 2
+      Hash: b88eb1677088f6c1884b10f157721cb6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: CircularProgressBar
+  - hash:
+      serializedVersion: 2
       Hash: 4d737f41c0a2e8bc5392eb11a73acb25
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -3126,6 +3317,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: CenterEyeOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Key
   - hash:
       serializedVersion: 2
       Hash: c171c1622f565a20533ac06dddb0e893
@@ -3174,6 +3371,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppDeeplinkUI
+  - hash:
+      serializedVersion: 2
+      Hash: f723af67c6deffd4cb6409fd257c1b72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Demo
+    className: FaceVRCamera
   - hash:
       serializedVersion: 2
       Hash: 994f6d909dbeb177c155fe4141a7ed4c
@@ -3302,6 +3505,12 @@ ScriptsOnlyBuild:
     className: PointableCanvas
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Symbol
+  - hash:
+      serializedVersion: 2
       Hash: 2d75dd1753213123772f51e8448cd92e
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
@@ -3366,6 +3575,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
     className: CollisionSound
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Shift
   - hash:
       serializedVersion: 2
       Hash: 6eec73ef93bfe43ef513041177529a3d
@@ -3444,6 +3659,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: BoneCapsuleTriggerLogic
+  - hash:
+      serializedVersion: 2
+      Hash: 552645f590b3fae94b9248f176bb9b0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: KeyboardExtentionMethods
   - hash:
       serializedVersion: 2
       Hash: 349fc863c5f9c0b3f7471af2e318712a
@@ -3600,6 +3821,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Surfaces
     className: PointablePlane
+  - hash:
+      serializedVersion: 2
+      Hash: d95c11e0a5b507a21cefd2eba8fa6dd0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: MenuItem
   - hash:
       serializedVersion: 2
       Hash: bec1105ad813bd45d7a50c203cbec785
@@ -3824,6 +4051,12 @@ ScriptsOnlyBuild:
     className: StartMenu
   - hash:
       serializedVersion: 2
+      Hash: 75280ea9cb3da8eb01a28a2bd5d32ee6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: CardItem
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
@@ -3974,10 +4207,22 @@ ScriptsOnlyBuild:
     className: HandJet
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Util
+  - hash:
+      serializedVersion: 2
       Hash: 76aef43e801605d1829c8805eeee135c
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: OptionItem
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -3998,6 +4243,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Number
+  - hash:
+      serializedVersion: 2
       Hash: 61c7e440799059d089dd591427242f79
     assemblyName: Oculus.LipSync.dll
     namespaceName: 
@@ -4014,6 +4265,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
     className: EditorHandle
+  - hash:
+      serializedVersion: 2
+      Hash: fc33810bf474a1ef4f2b045062b06307
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Demo
+    className: ToggleUIKitHelper
   - hash:
       serializedVersion: 2
       Hash: 6a51aeb0493c795ac187b5cc41150ec4
@@ -4232,6 +4489,12 @@ ScriptsOnlyBuild:
     className: SelectorUnityEventWrapper
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Alphabet
+  - hash:
+      serializedVersion: 2
       Hash: 41d2e0adf70ca4f5703a21d38e8acd0a
     assemblyName: Assembly-CSharp.dll
     namespaceName: BNG
@@ -4248,6 +4511,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 06962ea8e96662b7bb2a7bf52e036f1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: Pagination
   - hash:
       serializedVersion: 2
       Hash: 479f942febbb5357ed73029569f2421a
@@ -4700,6 +4969,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 3e812b6e1c036a3e7296094057d3eced
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: UIKitPointer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -4746,6 +5021,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: RayToolView
+  - hash:
+      serializedVersion: 2
+      Hash: bd962df00dc44c083260b4b61727989b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: GazeInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: dd0bb5be5ab5621bd2a076b9dcfed9ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: LaserInputModule
   - hash:
       serializedVersion: 2
       Hash: 462232cc57866127280c165301c33d45
@@ -4802,6 +5089,12 @@ ScriptsOnlyBuild:
     className: PlayerMovingPlatformSupport
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: ProgressBarManager
+  - hash:
+      serializedVersion: 2
       Hash: bbf6c8bbcb3097b51034aeb2a5b7693a
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -4820,6 +5113,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 48a05d4bbe27b84570f28cbd5b7cc7b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: KeyboardManager
+  - hash:
+      serializedVersion: 2
       Hash: 1ae6095b64624da5e20ebb3bcd797a87
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -4830,6 +5129,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: OneGrabTranslateTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VRUiKits.Utils
+    className: VREventSystemHelper
   - hash:
       serializedVersion: 2
       Hash: cc6e9e430dafea659675a3bd07a4355a
@@ -5066,5 +5371,5 @@ ScriptsOnlyBuild:
     className: TrackSegment
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Development.unity
   playerPath: C:/Users/adama/Documents/GitHub/VR-Game-SWP/Game/Assets/../Temp/OVRGradleTempExport

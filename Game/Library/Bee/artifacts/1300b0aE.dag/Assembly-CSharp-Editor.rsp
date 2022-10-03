@@ -406,6 +406,13 @@
 "Assets/Oculus/SampleFramework/Editor/BuildSamples.cs"
 "Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs"
 "Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Editor/OVROverlayCanvasEditor.cs"
+"Assets/UIKits/Scripts/Editor/CardDataEditor.cs"
+"Assets/UIKits/Scripts/Editor/DeviceControl.cs"
+"Assets/UIKits/Scripts/Editor/OptionDataEditor.cs"
+"Assets/UIKits/Scripts/InputModule/Editor/GazeInputModuleEditor.cs"
+"Assets/UIKits/Scripts/InputModule/Editor/LaserInputModuleEditor.cs"
+"Assets/UIKits/Scripts/TextMeshPro/Editor/TextMeshProConverterWindow.cs"
+"Assets/UIKits/Scripts/UI/RadialMenu/Editor/RadialMenuManagerEditor.cs"
 -langversion:8.0
 
 /deterministic

@@ -11,4 +11,19 @@ public class MenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void OpenReddit()
+    {
+        Application.OpenURL("reddit.com");
+    }
+
+    public void OpenDiscord()
+    {
+        Application.OpenURL("discord.com");
+    }
+
+    public void OpenInstagram()
+    {
+        Application.OpenURL("instagram.com");
+    }
 }

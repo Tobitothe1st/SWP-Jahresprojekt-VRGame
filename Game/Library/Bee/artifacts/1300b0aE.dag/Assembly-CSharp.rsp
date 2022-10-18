@@ -365,6 +365,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Attack.cs"
 "Assets/BNG Framework/Animation/HandPoseDefinitions.cs"
 "Assets/BNG Framework/HandPoser/Scripts/AutoPoser.cs"
 "Assets/BNG Framework/HandPoser/Scripts/BoneMapping.cs"

@@ -8,6 +8,7 @@ public class Attack : MonoBehaviour
     public GameObject Weapon;
     public Animator anim;
     private int health = 3;
+    public Collider col;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +24,11 @@ public class Attack : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        if(collision.gameObject.tag == "weapon")
+        if(collider.gameObject.tag == "enemy")
         {
-            anim.Play("Hit Front");
-            health = health - 1;
+            Enemy.SetActive(false);
         }
     }
 }

@@ -856,6 +856,8 @@ struct OnClick_t3D428DDB8CA80C4FA8B76158319FAE59DCF77965;
 struct OnSlider_t6E646B5E02F3457C859F48B8FEA5CD729EA21134;
 // DebugUIBuilder/OnToggleValueChange
 struct OnToggleValueChange_t944E2D793A90212A941AF225DFE933D4253421D0;
+// EnemyScript/<Wait>d__9
+struct U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972;
 // BNG.Explosive/<dealDelayedDamaged>d__7
 struct U3CdealDelayedDamagedU3Ed__7_t1775232D64061AE013554C83769B0357B7A9302C;
 // BNG.Explosive/<explosionRoutine>d__6
@@ -1233,6 +1235,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CUnlockSlideRoutineU3Ed__27_System_Collec
 IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateOrientationCoroutineU3Ed__7_System_Collections_IEnumerator_Reset_m8957A7F5F8D1D9C630D84F24A7C2B66642CA9B95_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CVibrateU3Ed__179_System_Collections_IEnumerator_Reset_m038093161C9A1E2E4AFD568012690D2251B999AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitTargetProcessEventU3Ed__25_System_Collections_IEnumerator_Reset_m7B7B8C4C7E0482431907FA42DA9A63EC54A78838_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitU3Ed__9_System_Collections_IEnumerator_Reset_mFFBCBF9E88064F18B2A3D99F532CDDEDEDDE79B7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CWaitforOVROverlayU3Ed__30_System_Collections_IEnumerator_Reset_mEEB99599B3CF4FC0F90F891156B2FDE7157003F3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CWriteRoutineU3Ed__18_System_Collections_IEnumerator_Reset_mD0493F5470C504CF1063DDD4150D993895EEB667_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CanimateSlideAndEjectU3Ed__75_System_Collections_IEnumerator_Reset_m368E7B2A30F22F1A327B5670D1AAE3B5BC05044F_RuntimeMethod_var;
@@ -2851,6 +2854,45 @@ public:
 	{
 		___tb_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___tb_1), (void*)value);
+	}
+};
+
+
+// EnemyScript/<Wait>d__9
+struct U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972  : public RuntimeObject
+{
+public:
+	// System.Int32 EnemyScript/<Wait>d__9::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object EnemyScript/<Wait>d__9::<>2__current
+	RuntimeObject * ___U3CU3E2__current_1;
+	// System.Single EnemyScript/<Wait>d__9::waitTime
+	float ___waitTime_2;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972, ___U3CU3E1__state_0)); }
+	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
+	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
+	inline void set_U3CU3E1__state_0(int32_t value)
+	{
+		___U3CU3E1__state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972, ___U3CU3E2__current_1)); }
+	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
+	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
+	inline void set_U3CU3E2__current_1(RuntimeObject * value)
+	{
+		___U3CU3E2__current_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_waitTime_2() { return static_cast<int32_t>(offsetof(U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972, ___waitTime_2)); }
+	inline float get_waitTime_2() const { return ___waitTime_2; }
+	inline float* get_address_of_waitTime_2() { return &___waitTime_2; }
+	inline void set_waitTime_2(float value)
+	{
+		___waitTime_2 = value;
 	}
 };
 
@@ -42465,6 +42507,105 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnToggleValueChange_BeginInvok
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnToggleValueChange_EndInvoke_mA11DE32406ADE7239AD2833535BF1C49DB4E292B (OnToggleValueChange_t944E2D793A90212A941AF225DFE933D4253421D0 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void EnemyScript/<Wait>d__9::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__9__ctor_mF4B00C17B7B3F261E1FA80E861226AC612FF5EB5 (U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->set_U3CU3E1__state_0(L_0);
+		return;
+	}
+}
+// System.Void EnemyScript/<Wait>d__9::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__9_System_IDisposable_Dispose_m9695B716DDDF1D04EB838594162264B8985A2A7E (U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972 * __this, const RuntimeMethod* method)
+{
+	{
+		return;
+	}
+}
+// System.Boolean EnemyScript/<Wait>d__9::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWaitU3Ed__9_MoveNext_mDC0DC605C5E8DD1990542A6A57962F7498F8960B (U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U3CU3E1__state_0();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		__this->set_U3CU3E1__state_0((-1));
+		// yield return new WaitForSeconds(waitTime);
+		float L_3 = __this->get_waitTime_2();
+		WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013 * L_4 = (WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013 *)il2cpp_codegen_object_new(WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_mD298C4CB9532BBBDE172FC40F3397E30504038D4(L_4, L_3, /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_4);
+		__this->set_U3CU3E1__state_0(1);
+		return (bool)1;
+	}
+
+IL_0031:
+	{
+		__this->set_U3CU3E1__state_0((-1));
+		// }
+		return (bool)0;
+	}
+}
+// System.Object EnemyScript/<Wait>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CWaitU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFF1DA1AD0C58A11109C77360476FABBF31D6D85C (U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
+		return L_0;
+	}
+}
+// System.Void EnemyScript/<Wait>d__9::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitU3Ed__9_System_Collections_IEnumerator_Reset_mFFBCBF9E88064F18B2A3D99F532CDDEDEDDE79B7 (U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972 * __this, const RuntimeMethod* method)
+{
+	{
+		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m3EA81A5B209A87C3ADA47443F2AFFF735E5256EE(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWaitU3Ed__9_System_Collections_IEnumerator_Reset_mFFBCBF9E88064F18B2A3D99F532CDDEDEDDE79B7_RuntimeMethod_var)));
+	}
+}
+// System.Object EnemyScript/<Wait>d__9::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CWaitU3Ed__9_System_Collections_IEnumerator_get_Current_mFA36891789E9751CF8C56B0199237F9774B363F2 (U3CWaitU3Ed__9_tAAD03721B79CBE79062ABC1425F006CFF03F9972 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
+		return L_0;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -828,6 +828,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral14DF90F7B7B1D0C29E073C07C92DBA6A25DAA187
 IL2CPP_EXTERN_C String_t* _stringLiteral155B036AB9502432CB2CCD80790FF33D3227823D;
 IL2CPP_EXTERN_C String_t* _stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0;
 IL2CPP_EXTERN_C String_t* _stringLiteral18135B337564B147F8F3C857356E9A8C8B6236C6;
+IL2CPP_EXTERN_C String_t* _stringLiteral206FC77B3C730A0F2EF1DFDE319EBE629270222E;
 IL2CPP_EXTERN_C String_t* _stringLiteral20825170D1B0DA2A733E78D5B035FF14697DA12B;
 IL2CPP_EXTERN_C String_t* _stringLiteral2622B3702FDA4D850E114991B3092DC70DF47738;
 IL2CPP_EXTERN_C String_t* _stringLiteral2752A64BA712F6F13A300028AB018ACD9A80434C;
@@ -876,8 +877,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAA3D44FF632B940A0BC706DBCA2B697459C1F08D
 IL2CPP_EXTERN_C String_t* _stringLiteralAB17100157534B35CC9E9E0CCFE5559C93356373;
 IL2CPP_EXTERN_C String_t* _stringLiteralACE0CD51C76B0574F41A10D9D9736790739C1D25;
 IL2CPP_EXTERN_C String_t* _stringLiteralAE0E2D66D9BF36C388DEC01E65D1A398965AE74A;
+IL2CPP_EXTERN_C String_t* _stringLiteralB3AA466DE35D4909FAB6FDDA45CEF579C51C0E34;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB1B6B9FB9A4A59B0ACC67C1532B745941910AC6;
 IL2CPP_EXTERN_C String_t* _stringLiteralBD3F2B6A71339D70457CEBD856E50EE4127313E1;
+IL2CPP_EXTERN_C String_t* _stringLiteralC071834FE059E8EBA691E37DA448C6B900219C5E;
 IL2CPP_EXTERN_C String_t* _stringLiteralC141E3E49B09432DE6995F93C09165D932D81629;
 IL2CPP_EXTERN_C String_t* _stringLiteralCA1C38650B88B2F7CF61DA8541B72E6E8C250D3B;
 IL2CPP_EXTERN_C String_t* _stringLiteralCA757EEEB5C4EF47B48825209818E7E928FF7F86;
@@ -24449,6 +24452,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexHelper_AddTriangle_m1EE93E4BF27E3B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image__ctor_m11AB7390F778F2BA5F3B110654400201123F1924 (Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092 (String_t* ___sceneName0, const RuntimeMethod* method);
+// System.Void UnityEngine.Application::OpenURL(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E (String_t* ___url0, const RuntimeMethod* method);
 // System.Void VRUiKits.Utils.Item::Activate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_Activate_mBF571E09F271F464C48FF65F6DBF5D59CFD8EAFA (Item_tA7B6F93143ADB2607EEC982F6AC02B17899C308E * __this, const RuntimeMethod* method);
 // System.Void VRUiKits.Utils.Item::Deactivate()
@@ -30257,6 +30262,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuButtons_LoadScene_m28BE72C67A1520C22
 		String_t* L_0 = __this->get_scene_4();
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void MenuButtons::OpenReddit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuButtons_OpenReddit_m444AE90670D0AF20A0A1448F6E787DD084C90A73 (MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC071834FE059E8EBA691E37DA448C6B900219C5E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Application.OpenURL("reddit.com");
+		Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E(_stringLiteralC071834FE059E8EBA691E37DA448C6B900219C5E, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void MenuButtons::OpenDiscord()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuButtons_OpenDiscord_mF8780DEDC87EDBD8219B9E7BBAE277366E61F6F7 (MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3AA466DE35D4909FAB6FDDA45CEF579C51C0E34);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Application.OpenURL("discord.com");
+		Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E(_stringLiteralB3AA466DE35D4909FAB6FDDA45CEF579C51C0E34, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void MenuButtons::OpenInstagram()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuButtons_OpenInstagram_m8BDB9AD1640FF7E676FE01FDA6811FC1FC83C8DF (MenuButtons_tF50DD4663BDB896FD01C65B9F7BF9A5F5AF895A9 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral206FC77B3C730A0F2EF1DFDE319EBE629270222E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Application.OpenURL("instagram.com");
+		Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E(_stringLiteral206FC77B3C730A0F2EF1DFDE319EBE629270222E, /*hidden argument*/NULL);
 		// }
 		return;
 	}

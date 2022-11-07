@@ -8,9 +8,11 @@ public class EnemyScript : MonoBehaviour
     public Transform Player;
     public Transform Enemy;
     public int triggerDistance;
+    public int runningDistance;
     public int stopDistance;
     public float speed;
     public Animator anim;
+    public int run;
     private bool animationFinished;
     private float finished;
     
@@ -33,7 +35,28 @@ public class EnemyScript : MonoBehaviour
             Enemy.position = Vector3.MoveTowards(Enemy.position, floor, speed * Time.deltaTime);
             Enemy.LookAt(Player.position);
             anim.Play("Walk Forward");
+
+            Vector3 lookVector = Player.transform.position - transform.position;
+            lookVector.y = transform.position.y;
+            Quaternion rot = Quaternion.LookRotation(lookVector);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rot, 1);
         }
+
+        if ((Vector3.Distance(Player.position, Enemy.position) < runningDistance && Vector3.Distance(Player.position, Enemy.position) > triggerDistance) &&
+            (Vector3.Distance(Player.position, Enemy.position) > -runningDistance && Vector3.Distance(Player.position, Enemy.position) > -triggerDistance))
+        {
+            Vector3 floor = new Vector3(Player.position.x, Player.position.y - 1, Player.position.z);
+            Enemy.position = Vector3.MoveTowards(Enemy.position, floor, run * Time.deltaTime);
+            Enemy.LookAt(Player.position);
+            anim.Play("RunForward");
+
+            Vector3 lookVector = Player.transform.position - transform.position;
+            lookVector.y = transform.position.y;
+            Quaternion rot = Quaternion.LookRotation(lookVector);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rot, 1);
+        }
+
+
 
     }
 
